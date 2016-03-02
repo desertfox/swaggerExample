@@ -6,7 +6,7 @@
     "host": "localhost",
     "basePath": "/api",
     "paths": {
-      "/world": {
+      "/list": {
         "get": {
           "operationId": "listSwagger",
           "parameters" : [],
