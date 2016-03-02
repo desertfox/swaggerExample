@@ -1,10 +1,20 @@
   {
     "swagger": "2.0",
+    "info": { "title": "swaggerExample", "description": "Swagger Example", "version": "0.01" },
+    "consumes": [ "application/json" ],
+    "produces": [ "application/json" ],
+    "host": "localhost",
     "basePath": "/api",
     "paths": {
       "/world": {
         "get": {
-          "operationId": "helloSwagger"
+          "operationId": "listSwagger",
+          "parameters" : [],
+          "responses" : {
+                  "200": {
+                    "description": "Success"
+                  }
+          }
         } 
       }
     }

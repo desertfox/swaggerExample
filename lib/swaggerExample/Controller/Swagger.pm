@@ -1,5 +1,12 @@
-package Swagger;
+package swaggerExample::Controller::Swagger;
 
-sub hello {
+use Mojo::Base 'Mojolicious::Controller';
+
+sub list {
 	my ($c, $input, $cb) = @_;
+
+    $c->$cb({ response => "Hello World" }, 200);
+
 }
+
+1;
